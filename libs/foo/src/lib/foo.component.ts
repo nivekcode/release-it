@@ -5,7 +5,7 @@ import {BazComponent} from "@kreuzerk/release-it-baz";
   standalone: true,
   selector: 'release-it-foo',
   template: `
-      <h1>Foo</h1>
+      <h1>Improve foo</h1>
       <release-it-baz/>
   `,
   imports: [
