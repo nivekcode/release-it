@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kreuzerk/release-it-bar": ["libs/bar/src/index.ts"],
+      "@kreuzerk/release-it-baz": ["libs/baz/src/index.ts"],
+      "@kreuzerk/release-it-foo": ["libs/foo/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
